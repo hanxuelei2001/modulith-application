@@ -1,4 +1,4 @@
-package com.example.modulith.common.config;
+package com.example.modulith.config;
 
 import com.mysql.cj.jdbc.MysqlDataSource;
 import com.zaxxer.hikari.HikariDataSource;

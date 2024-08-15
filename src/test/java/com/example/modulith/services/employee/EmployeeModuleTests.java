@@ -1,6 +1,6 @@
 package com.example.modulith.services.employee;
 
-import com.example.modulith.services.event.OrganizationRemoveEvent;
+import com.example.modulith.services.organization.OrganizationRemoveEvent;
 import com.example.modulith.services.employee.repository.EmployeeRepository;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;

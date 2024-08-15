@@ -1,4 +1,4 @@
-package com.example.modulith.services.event;
+package com.example.modulith.services.organization;
 
 import org.jmolecules.event.annotation.Externalized;
 

@@ -1,7 +1,7 @@
 package com.example.modulith.services.department;
 
-import com.example.modulith.services.event.OrganizationAddEvent;
-import com.example.modulith.services.event.OrganizationRemoveEvent;
+import com.example.modulith.services.organization.OrganizationAddEvent;
+import com.example.modulith.services.organization.OrganizationRemoveEvent;
 import com.example.modulith.services.department.repository.DepartmentRepository;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;

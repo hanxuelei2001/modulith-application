@@ -1,4 +1,4 @@
-package com.example.modulith.common.utils;
+package com.example.modulith.utils;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.apache.tomcat.util.buf.StringUtils;

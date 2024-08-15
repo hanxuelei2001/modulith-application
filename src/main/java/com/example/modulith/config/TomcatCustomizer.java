@@ -1,4 +1,4 @@
-package com.example.modulith.common.config;
+package com.example.modulith.config;
 
 import org.apache.coyote.ProtocolHandler;
 import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;

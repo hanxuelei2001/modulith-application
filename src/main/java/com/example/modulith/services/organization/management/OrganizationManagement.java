@@ -1,7 +1,7 @@
 package com.example.modulith.services.organization.management;
 
-import com.example.modulith.services.event.OrganizationAddEvent;
-import com.example.modulith.services.event.OrganizationRemoveEvent;
+import com.example.modulith.services.organization.OrganizationAddEvent;
+import com.example.modulith.services.organization.OrganizationRemoveEvent;
 import com.example.modulith.services.department.DepartmentDTO;
 import com.example.modulith.services.department.DepartmentInternalAPI;
 import com.example.modulith.services.employee.EmployeeDTO;
