@@ -1,4 +1,6 @@
-package com.example.modulith.services.employee;
+package com.example.modulith.services.employee.adapter;
+
+import com.example.modulith.services.employee.EmployeeDTO;
 
 import java.util.List;
 

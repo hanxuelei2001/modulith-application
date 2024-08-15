@@ -1,4 +1,6 @@
-package com.example.modulith.services.organization;
+package com.example.modulith.services.organization.adapter;
+
+import com.example.modulith.services.organization.OrganizationDTO;
 
 public interface OrganizationExternalAPI {
 

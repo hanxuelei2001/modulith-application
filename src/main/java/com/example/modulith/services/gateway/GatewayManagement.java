@@ -1,11 +1,11 @@
 package com.example.modulith.services.gateway;
 
 import com.example.modulith.services.department.DepartmentDTO;
-import com.example.modulith.services.department.DepartmentExternalAPI;
+import com.example.modulith.services.department.adapter.DepartmentExternalAPI;
 import com.example.modulith.services.employee.EmployeeDTO;
-import com.example.modulith.services.employee.EmployeeExternalAPI;
+import com.example.modulith.services.employee.adapter.EmployeeExternalAPI;
 import com.example.modulith.services.organization.OrganizationDTO;
-import com.example.modulith.services.organization.OrganizationExternalAPI;
+import com.example.modulith.services.organization.adapter.OrganizationExternalAPI;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

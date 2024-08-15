@@ -2,8 +2,8 @@ package com.example.modulith.services.employee.management;
 
 import com.example.modulith.services.organization.OrganizationRemoveEvent;
 import com.example.modulith.services.employee.EmployeeDTO;
-import com.example.modulith.services.employee.EmployeeExternalAPI;
-import com.example.modulith.services.employee.EmployeeInternalAPI;
+import com.example.modulith.services.employee.adapter.EmployeeExternalAPI;
+import com.example.modulith.services.employee.adapter.EmployeeInternalAPI;
 import com.example.modulith.services.employee.mapper.EmployeeMapper;
 import com.example.modulith.services.employee.model.Employee;
 import com.example.modulith.services.employee.repository.EmployeeRepository;

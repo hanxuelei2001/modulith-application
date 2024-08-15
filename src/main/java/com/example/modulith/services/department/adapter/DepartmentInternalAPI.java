@@ -1,4 +1,6 @@
-package com.example.modulith.services.department;
+package com.example.modulith.services.department.adapter;
+
+import com.example.modulith.services.department.DepartmentDTO;
 
 import java.util.List;
 
