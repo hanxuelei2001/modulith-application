@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: prod
+  datasource:
+    url: jdbc:mysql://localhost:3306/user?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+
+# 如果 这里配置了, 那么 common 就不要配置了, 不然会重复
+# 而且,如果 common 中也存在 xml,就需要使用 classpath*
+#mybatis:
+#  mapper-locations: classpath*:mapper/*.xml
